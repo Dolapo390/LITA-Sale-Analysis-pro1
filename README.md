@@ -1,6 +1,6 @@
 #### LITA-Sale-Analysis-pro1
-###Sales Analysis
-##Overview
+### Sales Analysis
+## Overview
 This project analyzes sales data to discover future trends, forcast future sales and provides actionable insights.
 The datasets includes  information on customers transaction, products, quantity,total sales,region,unit price and date.
 # Datasets and tools
