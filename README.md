@@ -1,3 +1,4 @@
+![Sales Pivot](https://github.com/user-attachments/assets/c470ed32-ec5d-48f5-aee6-102eaccc2595)
 # LITA CAPSTONE PROJECT-Sale-Analysis-pro1
 
 ## Sales Analysis
@@ -27,4 +28,6 @@ Data cleaning and formatting
 Sales trends:monthly,quarterly, and yearly trends
 Product performance: Identifying best and worst selling products in each region,total revenue by product
 Forecasting: Predict future sales using time series models.
+
+![Sales Pivot](https://github.com/user-attachments/assets/b379bc74-70af-4079-a25a-7df539df2d3b)
 
