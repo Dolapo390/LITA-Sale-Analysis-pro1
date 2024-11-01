@@ -44,8 +44,10 @@ Sales trends:monthly,quarterly, and yearly trends
 Product performance: Identifying best and worst selling products in each region,total revenue by product
 Forecasting: Predict future sales using time series models. This is where we include some basic lines of codes or queries or even some of the DAX expressions used
 during my analysis;
-SELECT Product, SUM(Total_sales) FROM [sales analysis]
-GROUP BY Product
+  ```SELECT * FROM [sales analysis]
+
+  SELECT Product, SUM(Total_sales) FROM [sales analysis]
+  GROUP BY Product```
 
 
 ![Sales Pivot](https://github.com/user-attachments/assets/b379bc74-70af-4079-a25a-7df539df2d3b)
