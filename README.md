@@ -1,7 +1,19 @@
-![Sales Pivot](https://github.com/user-attachments/assets/c470ed32-ec5d-48f5-aee6-102eaccc2595)
+
 # LITA CAPSTONE PROJECT-Sale-Analysis-pro1
 
-## Sales Analysis
+## Project Title- Sales Analysis
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Datasets and tools used](#datasets-and-tools-used)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Anaysis](#exploratory-data-analysis)
+
+[Analysis](#analysis)
+
 
 ### Project Overview
 --------------
@@ -44,11 +56,20 @@ Sales trends:monthly,quarterly, and yearly trends
 Product performance: Identifying best and worst selling products in each region,total revenue by product
 Forecasting: Predict future sales using time series models. This is where we include some basic lines of codes or queries or even some of the DAX expressions used
 during my analysis;
-  ```SELECT * FROM [sales analysis]
+  ```SQL
+SELECT * FROM [sales analysis]
 
   SELECT Product, SUM(Total_sales) FROM [sales analysis]
-  GROUP BY Product```
+  GROUP BY Product
+```
 
 
 ![Sales Pivot](https://github.com/user-attachments/assets/b379bc74-70af-4079-a25a-7df539df2d3b)
+
+![Sales Pivot](https://github.com/user-attachments/assets/c470ed32-ec5d-48f5-aee6-102eaccc2595)
+
+![Sales Chart 1](https://github.com/user-attachments/assets/58c1ba5a-00f9-4fbc-b4dc-8be6da2b7992)
+
+![Screenshot 2024-10-29 161023](https://github.com/user-attachments/assets/b3857dfb-5d6e-4088-b51b-97febec00615)
+
 
