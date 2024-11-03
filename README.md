@@ -49,6 +49,9 @@ In the initial phase of the data cleaning and preparation, the following was per
    - What are the products on peak sales
    - Calculate monthly sales totals for current year.
    - Retrive the total sales for each product category.
+   - Find the sales transaction in each region.
+   - Calculate the percentage of total sales contributed by each region.
+     
 
 ### Analysis
 ---------------------
@@ -57,10 +60,32 @@ Product performance: Identifying best and worst selling products in each region,
 Forecasting: Predict future sales using time series models. This is where we include some basic lines of codes or queries or even some of the DAX expressions used
 during my analysis;
   ```SQL
-SELECT * FROM [sales analysis]
+SELECT * FROM [sales data lita]
 
-  SELECT Product, SUM(Total_sales) FROM [sales analysis]
+  SELECT Product, SUM(Total_sales) FROM [sales data lita]
   GROUP BY Product
+
+SELECT SUM(Total_sales) AS Sales_Transaction FROM [sales data lita]
+GROUP BY Region
+
+SELECT Product, MAX(Total_sales) AS Popular_product FROM [sales data lita]
+GROUP BY Product
+
+SELECT SUM(Total_sales) AS Total_Revenue FROM [sales data lita]
+GROUP BY Product
+
+SELECT SUM(Total_sales) AS Current_Yearsales FROM [sales data lita]
+WHERE OrderDate >= '2024-01-01' AND OrderDate <= '2024-12-31'
+
+SELECT Region,SUM(Total_sales) AS Region_sales, (CAST(SUM(Total_sales) AS float))/(SELECT SUM(Total_sales) FROM [sales data lita])* 100 AS Percentage
+FROM [sales data lita]
+GROUP BY Region
+
+SELECT TOP 5(Customer_Id), SUM(Total_sales) AS Total_purchase
+FROM [sales data lita]
+GROUP BY Customer_Id
+ORDER BY Total_purchase
+
 ```
 
 
