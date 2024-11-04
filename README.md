@@ -97,4 +97,8 @@ ORDER BY Total_purchase
 
 ![Screenshot 2024-10-29 161023](https://github.com/user-attachments/assets/b3857dfb-5d6e-4088-b51b-97febec00615)
 
+### Summary
+In conclusion from the analysis we were able to note that the south has the highest sales in region and the highest selling product is the shoe
+and lowest selling product is the socks. Also the pervious year has more sales than the last year maybe because the reports was made before the end of the year.  
+
 
